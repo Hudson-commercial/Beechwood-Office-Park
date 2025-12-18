@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>22-24 Riverview Drive</title>
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com" rel="preconnect">
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+         rel="stylesheet"
+         />
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <!-- Main CSS File -->
+      <link href="assets/css/main.css" rel="stylesheet">
+      <!-- =======================================================
+         * Template Name: Constructo
+         * Template URL: https://bootstrapmade.com/constructo-bootstrap-construction-template/
+         * Updated: Aug 30 2025 with Bootstrap v5.3.8
+         * Author: BootstrapMade.com
+         * License: https://bootstrapmade.com/license/
+         ======================================================== -->
+      <style type="text/css">
+         .project-visual  { min-width: 100% !important; }
+         .icon-column {
+         display: flex;
+         justify-content: center;
+         align-items: center; /* Vertically center the icon */
+         /* Horizontally center the icon */
+         padding-top: 2em;
+         }
+         .details-column .property-details {
+         margin-top: 2em;
+         border-left: 3px solid rgb(227, 38, 14); /* Cool custom border color */
+         padding-left: 15px; /* Spacing between border and text */
+         margin-left: 0; /* Remove default ul margin */
+         padding-top: 10px; padding-bottom: 10px;
+         }
+         .color-property {color: rgb(227, 38, 14);}
+         .gallery-item-wrapper {
+         position: relative;
+         overflow: hidden;
+         cursor: pointer;
+         }
+         .gallery-item-wrapper img {
+         display: block;
+         width: 100%;
+         height: auto;
+         transition: transform 0.5s ease;
+         }
+         .overlay {
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 100%;
+         width: 100%;
+         opacity: 0;
+         transition: opacity 0.5s ease;
+         background-color: rgba(0, 0, 0, 0.6);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         }
+         .gallery-item-wrapper:hover .overlay {
+         opacity: 1;
+         }
+         .gallery-item-wrapper:hover img {
+         transform: scale(1.1);
+         }
+         .view-link {
+         color: white;
+         font-size: 20px;
+         text-decoration: none;
+         border: 1px solid white;
+         padding: 10px 20px;
+         border-radius: 5px;
+         }
+         .view-link i {
+         margin-right: 5px;
+         }
+         .contact-info-item {
+         margin-bottom: 2rem; /* Adds vertical spacing between the rows */
+         }
+         .contact-icon-col {
+         /* Optional: adjust icon column width as needed */
+         flex: 0 0 50px; 
+         max-width: 50px;
+         }
+         .contact-info-col {
+         padding-left: 1rem; /* Adds space between icon and text */
+         }
+      </style>
+   </head>
+   <body class="index-page">
+      <header id="header" class="header sticky-top">
+         <div class="topbar d-flex align-items-center dark-background">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+               <div class="contact-info d-flex align-items-center">
+                  <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">sam@hudsoncommercial.com</a></i>
+                  <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 845 454-1444</span></i>
+               </div>
+               <div class="social-links d-none d-md-flex align-items-center">
+                  <a href="https://twitter.com/noah15977842" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.facebook.com/Hudson-Commercial-Real-Estate-Corp-111074927066980/?view_public_for=111074927066980/" class="facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/hudson.commercial.real.estate/" class="instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.instagram.com/hudson.commercial.real.estate/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+               </div>
+            </div>
+         </div>
+         <!-- End Top Bar -->
+         <div class="branding d-flex align-items-cente">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+               <a href="index.html" class="logo d-flex align-items-center">
+                  <!-- Uncomment the line below if you also wish to use an image logo -->
+                  <!-- <img src="assets/img/logo.webp" alt=""> -->
+                  <h1 class="sitename">22-24 Riverview Drive</h1>
+               </a>
+               <nav id="navmenu" class="navmenu">
+                  <ul>
+                     <li><a href="index.html" class="active">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#information">Information</a></li>
+                     <li><a href="#architectural">Architectural</a></li>
+                     <li><a href="#images">Images</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+                  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <!-- Hero Section -->
+         <section id="hero" class="hero section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row align-items-center">
+                  <div class="col-lg-6">
+                     <div class="hero-content" data-aos="fade-right" data-aos-delay="200">
+                        <span class="subtitle">22-24 Riverview Drive</span>
+                        <h1>17,500 sq ft </h1>
+                        <p>High-quality of warehouse - manuerfaction space for lease in Marlboro, NY.</p>
+                        <div class="hero-buttons">
+                           <a href="#contact" class="btn-primary">Request a Showing</a>
+                           <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-2-LargeHighDefinition.jpeg" class="btn-secondary glightbox">Property Images</a>       
+                        </div>
+                        <div class="trust-badges">
+                           <div class="badge-item">
+                              <i class="bi bi-building-check"></i>
+                              <div class="badge-text">
+                                 <span class="count">32,500 SF</span>
+                                 <span class="label">Building Area</span>
+                              </div>
+                           </div>
+                           <div class="badge-item">
+                              <i class="bi bi-globe-americas"></i>
+                              <div class="badge-text">
+                                 <span class="count">2.5</span>
+                                 <span class="label">Acre Lot</span>
+                              </div>
+                           </div>
+                           <div class="badge-item">
+                              <i class="bi bi-calendar"></i>
+                              <div class="badge-text">
+                                 <span class="count">1986</span>
+                                 <span class="label">Year Built</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                     <div class="hero-image">
+                        <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-2-LargeHighDefinition.jpeg" alt="Construction Project" class="img-fluid">
+                        <div class="image-badge">
+                           <span>17,500 sq ft</span>
+                           <p>In the Front Side</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Hero Section -->
+         <!-- About Section -->
+         <section id="about" class="about section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row align-items-center g-5">
+                  <div class="col-lg-6">
+                     <div class="about-content" data-aos="fade-right" data-aos-delay="200">
+                        <h2>Space is in Excellence Condition</h2>
+                        <p class="lead">Available to lease a modern warehouse property in the Mid-Hudson Valley. The space size is 17,500 sq. ft. warehouse/distribution building on 2.5 acres, just off Route 9W in Marlboro, NY. 10 to 15 minutes (8 Miles) to Mid-Hudson Bridge; 10 to 15 minutes (8.8 Miles) (8.8 miles) to Beacon-Newburgh Bridge.</p>
+                        <div class="achievement-boxes row g-4 mt-4">
+                           <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                              <div class="achievement-box">
+                                 <h3>32.5</h3>
+                                 <p>Building Area</p>
+                              </div>
+                           </div>
+                           <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+                              <div class="achievement-box">
+                                 <h3>5-10</h3>
+                                 <p>Lease Term</p>
+                              </div>
+                           </div>
+                           <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
+                              <div class="achievement-box">
+                                 <h3>400</h3>
+                                 <p>Power Supply </p>
+                              </div>
+                           </div>
+                           <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="600">
+                              <div class="achievement-box">
+                                 <h3>HD</h3>
+                                 <p>Zoning</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="certifications mt-5" data-aos="fade-up" data-aos-delay="700">
+                           <h5>  </h5>
+                           <div class="row g-3 align-items-center">
+                              <div class="col-4 col-md-4">
+                                 <img src="assets/img/front1.jpg" alt="Certification" class="img-fluid" >
+                              </div>
+                              <div class="col-4 col-md-4">
+                                 <img src="assets/img/industrial-space-4.jpg" alt="Certification" class="img-fluid" >
+                              </div>
+                              <div class="col-4 col-md-4">
+                                 <img src="assets/img/FullSizeRender.jpg" alt="Certification" class="img-fluid" >
+                              </div>
+                           </div>
+                        </div>
+                        <div class="cta-container mt-5" data-aos="fade-up" data-aos-delay="800">
+                           <a href="#" class="propertyFactsLink explore-link font-larger-4 btn btn-primary" data-target-data="data4" data-bs-toggle="modal" data-bs-target="#propertyModal">Learn More <i class="bi bi-arrow-right"></i> </a>       
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="about-image position-relative" data-aos="fade-left" data-aos-delay="200">
+                        <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-14.jpeg" alt="Construction Team" class="img-fluid main-image rounded">
+                        <div class="image-overlay">
+                           <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-12-LargeHighDefinition.jpeg" alt="Construction Project" class="img-fluid rounded">
+                        </div>
+                        <div class="experience-badge" data-aos="zoom-in" data-aos-delay="500">
+                           <span>8-12 </span>
+                           <p>Miles to the bridge</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /About Section -->
+         <!-- Services Section -->
+         <section id="information" class="services section">
+            <!-- Section Title -->
+            <div class="container section-title">
+               <h2>Information</h2>
+               <p>Below you will find more information why it would be good for storage or manufacturing.</p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row gy-4">
+                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                     <div class="service-card">
+                        <div class="service-icon">
+                           <i class="bi bi-building-gear"></i>
+                        </div>
+                        <h3>Storage </h3>
+                        <p>The space would be good for commercial storage, because it has excellent security (cameras, gates, alarms), easy accessibility from Route 9W, not far from major highways, and has 24/7 access and a drive-in door.</p>
+                        <div class="service-features">
+                           <span><i class="bi bi-check-circle"></i> Security: Yes</span>
+                           <span><i class="bi bi-check-circle"></i> Drive Ins: 1 Door</span>
+                           <span><i class="bi bi-check-circle"></i> Sprinkler Yes</span>
+                        </div>
+                        <a href="#" class="propertyFactsLink explore-link font-larger-4 btn service-link" data-target-data="data-2" data-bs-toggle="modal" data-bs-target="#propertyModal">Learn More <i class="bi bi-arrow-right"></i> </a>   
+                     </div>
+                  </div>
+                  <!-- End Service Item -->
+                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                     <div class="service-card featured">
+                        <div class="service-badge">Industrial</div>
+                        <div class="service-icon">
+                           <i class="bi bi-building"></i>
+                        </div>
+                        <h3>Manufaction </h3>
+                        <p>High-quality industrial space with strong infrastructure (heavy power, utilities, clear height ceilings), efficient space with room for equipment and expansion.</p>
+                        <div class="service-features">
+                           <span><i class="bi bi-check-circle"></i> Power: Amps: 400 Phase: 3</span>
+                           <span><i class="bi bi-check-circle"></i> Ceiling Height: 24’</span>
+                           <span><i class="bi bi-check-circle"></i> Loading Docks: 2</span>
+                        </div>
+                        <a href="#" class="propertyFactsLink explore-link font-larger-4 btn service-link" data-target-data="data-2" data-bs-toggle="modal" data-bs-target="#propertyModal">Learn More <i class="bi bi-arrow-right"></i> </a>  
+                     </div>
+                  </div>
+                  <!-- End Service Item -->
+                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                     <div class="service-card">
+                        <div class="service-icon">
+                           <i class="bi bi-building-check"></i>
+                        </div>
+                        <h3>Office </h3>
+                        <p>The space also has 2,500 SF of nice office space. Recently renovated with new carpets and paint.</p>
+                        <div class="service-features">
+                           <span><i class="bi bi-check-circle"></i> Space Area: 2,500, Sq. Ft.</span>
+                           <span><i class="bi bi-check-circle"></i> Mezzanine Office Space</span>
+                           <span><i class="bi bi-check-circle"></i>Floors: Offices on two floors</span>
+                        </div>
+                        <a href="#" class="propertyFactsLink explore-link font-larger-4 btn service-link" data-target-data="data-2" data-bs-toggle="modal" data-bs-target="#propertyModal">Learn More <i class="bi bi-arrow-right"></i> </a>  
+                     </div>
+                  </div>
+                  <!-- End Service Item -->
+               </div>
+               <div class="row mt-5" id="architectural">
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                     <div class="service-image-block">
+                        <img src="assets/img/IMG_0558.jpg" alt="Construction Services" class="img-fluid">
+                     </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="service-list-block">
+                        <h3>Architectural Design</h3>
+                        <p>Built with good Materials with a juxtaposition of the white concrete blocks and metal cladding, which gives it a polished look.</p>
+                        <div class="service-list">
+                           <div class="service-list-item" data-aos="fade-up" data-aos-delay="100">
+                              <div class="service-list-icon">
+                                 <i class="bi bi-rulers"></i>
+                              </div>
+                              <div class="service-list-content">
+                                 <h4>Space Architectural </h4>
+                                 <p>The Indoor industrial space has exposed steel beams, painted concrete blocks, and installation on the sides.</p>
+                              </div>
+                           </div>
+                           <!-- End Service List Item -->
+                           <div class="service-list-item" data-aos="fade-up" data-aos-delay="200">
+                              <div class="service-list-icon">
+                                 <i class="bi bi-building"></i>
+                              </div>
+                              <div class="service-list-content">
+                                 <h4>Office Architectural</h4>
+                                 <p>The office space has drop ceilings, nice carpet, recessed lighting, and paint</p>
+                              </div>
+                           </div>
+                           <!-- End Service List Item -->
+                           <div class="service-list-item" data-aos="fade-up" data-aos-delay="300">
+                              <div class="service-list-icon">
+                                 <i class="bi bi-tools"></i>
+                              </div>
+                              <div class="service-list-content">
+                                 <h4>Renovation &amp; Remodeling</h4>
+                                 <p>The space can be easily customized and renovated to fit the company's requirements</p>
+                              </div>
+                           </div>
+                           <!-- End Service List Item -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="cta-container text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+                  <h3>Ready to See The Space? </h3>
+                  <p>Contact Sam Finnerman at the office.</p>
+                  <a href="#" class="btn btn-cta">Request a Showing</a>
+               </div>
+            </div>
+         </section>
+         <!-- /Services Section -->
+         <!-- Projects Section -->
+         <section id="projects" class="projects section">
+            <!-- Section Title -->
+            <div class="container section-title">
+               <h2>Space</h2>
+               <p>Below are some images of the Industrial space.</p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="projects-grid">
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                     <!--             <div class="project-content">
+                        <div class="project-header">
+                          <span class="project-category">Commercial</span>
+                          <span class="project-status completed">Completed</span>
+                        </div>
+                        <h3 class="project-title">Metropolitan Office Tower</h3>
+                        <div class="project-details">
+                          <div class="project-info">
+                            <p>Innovative glass facade design with sustainable energy systems and modern workspace solutions.</p>
+                            <div class="project-specs">
+                              <span class="spec-item">
+                                <i class="bi bi-building"></i>
+                                32 Floors
+                              </span>
+                              <span class="spec-item">
+                                <i class="bi bi-calendar-check"></i>
+                                24 Months
+                              </span>
+                            </div>
+                          </div>
+                          <div class="project-location">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>New York, NY</span>
+                          </div>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                          <span>View Project</span>
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                        </div> -->
+                     <div class="project-visual">
+                        <img src="assets/img/industrial-space-4.jpg" alt="Metropolitan Office Tower" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-tools"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+                  <!--         <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+                     <div class="project-content">
+                       <div class="project-header">
+                         <span class="project-category">Residential</span>
+                         <span class="project-status in-progress">In Progress</span>
+                       </div>
+                       <h3 class="project-title">Riverside Luxury Homes</h3>
+                       <div class="project-details">
+                         <div class="project-info">
+                           <p>Premium residential development featuring eco-friendly materials and smart home integration.</p>
+                           <div class="project-specs">
+                             <span class="spec-item">
+                               <i class="bi bi-house"></i>
+                               24 Units
+                             </span>
+                             <span class="spec-item">
+                               <i class="bi bi-calendar-check"></i>
+                               18 Months
+                             </span>
+                           </div>
+                         </div>
+                         <div class="project-location">
+                           <i class="bi bi-geo-alt-fill"></i>
+                           <span>Portland, OR</span>
+                         </div>
+                       </div>
+                       <a href="project-details.html" class="project-link">
+                         <span>View Project</span>
+                         <i class="bi bi-arrow-right"></i>
+                       </a>
+                     </div> -->
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+                     <div class="project-visual">
+                        <img src="assets/img/IMG_0568.jpg" alt="Riverside Luxury Homes" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-tools"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+                  <!--             <div class="project-content">
+                     <div class="project-header">
+                       <span class="project-category">Infrastructure</span>
+                       <span class="project-status completed">Completed</span>
+                     </div>
+                     <h3 class="project-title">Highway Bridge Reconstruction</h3>
+                     <div class="project-details">
+                       <div class="project-info">
+                         <p>Major infrastructure upgrade enhancing traffic flow and ensuring structural safety standards.</p>
+                         <div class="project-specs">
+                           <span class="spec-item">
+                             <i class="bi bi-rulers"></i>
+                             2.5 Miles
+                           </span>
+                           <span class="spec-item">
+                             <i class="bi bi-calendar-check"></i>
+                             36 Months
+                           </span>
+                         </div>
+                       </div>
+                       <div class="project-location">
+                         <i class="bi bi-geo-alt-fill"></i>
+                         <span>Dallas, TX</span>
+                       </div>
+                     </div>
+                     <a href="project-details.html" class="project-link">
+                       <span>View Project</span>
+                       <i class="bi bi-arrow-right"></i>
+                     </a>
+                     </div> -->
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                     <div class="project-visual">
+                        <img src="assets/img/IMG_5.jpg" alt="Highway Bridge Reconstruction" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-gear"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                     <!--             <div class="project-content">
+                        <div class="project-header">
+                          <span class="project-category">Healthcare</span>
+                          <span class="project-status completed">Completed</span>
+                        </div>
+                        <h3 class="project-title">Children's Medical Facility</h3>
+                        <div class="project-details">
+                          <div class="project-info">
+                            <p>Specialized pediatric center with family-friendly design and advanced medical technology integration.</p>
+                            <div class="project-specs">
+                              <span class="spec-item">
+                                <i class="bi bi-hospital"></i>
+                                8 Floors
+                              </span>
+                              <span class="spec-item">
+                                <i class="bi bi-calendar-check"></i>
+                                28 Months
+                              </span>
+                            </div>
+                          </div>
+                          <div class="project-location">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Boston, MA</span>
+                          </div>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                          <span>View Project</span>
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                        </div> -->
+                     <div class="project-visual">
+                        <img src="assets/img/IMG_64.jpg" alt="Children's Medical Facility" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-heart-pulse"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+                     <!--             <div class="project-content">
+                        <div class="project-header">
+                          <span class="project-category">Educational</span>
+                          <span class="project-status planning">Planning</span>
+                        </div>
+                        <h3 class="project-title">Innovation Campus Center</h3>
+                        <div class="project-details">
+                          <div class="project-info">
+                            <p>Modern learning facility with flexible spaces designed for collaborative education and research.</p>
+                            <div class="project-specs">
+                              <span class="spec-item">
+                                <i class="bi bi-mortarboard"></i>
+                                5 Buildings
+                              </span>
+                              <span class="spec-item">
+                                <i class="bi bi-calendar-check"></i>
+                                42 Months
+                              </span>
+                            </div>
+                          </div>
+                          <div class="project-location">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>San Francisco, CA</span>
+                          </div>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                          <span>View Project</span>
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                        </div> -->
+                     <div class="project-visual">
+                        <img src="assets/img/IMG_57.jpg" alt="Innovation Campus Center" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-lightbulb"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+                  <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+                     <!--             <div class="project-content">
+                        <div class="project-header">
+                          <span class="project-category">Industrial</span>
+                          <span class="project-status completed">Completed</span>
+                        </div>
+                        <h3 class="project-title">Green Energy Plant</h3>
+                        <div class="project-details">
+                          <div class="project-info">
+                            <p>Sustainable power generation facility incorporating renewable energy and efficient production systems.</p>
+                            <div class="project-specs">
+                              <span class="spec-item">
+                                <i class="bi bi-lightning"></i>
+                                150MW
+                              </span>
+                              <span class="spec-item">
+                                <i class="bi bi-calendar-check"></i>
+                                30 Months
+                              </span>
+                            </div>
+                          </div>
+                          <div class="project-location">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Denver, CO</span>
+                          </div>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                          <span>View Project</span>
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                        </div> -->
+                     <div class="project-visual">
+                        <img src="assets/img/IMG_84.jpg" alt="Green Energy Plant" class="img-fluid">
+                        <div class="project-badge">
+                           <i class="bi bi-leaf"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Project Item -->
+               </div>
+            </div>
+         </section>
+         <!-- /Projects Section -->
+         <!-- Testimonials Section -->
+         <section id="testimonials" class="testimonials section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="testimonials-slider swiper init-swiper">
+                  <script type="application/json" class="swiper-config">
+                     {
+                       "loop": true,
+                       "speed": 600,
+                       "autoplay": {
+                         "delay": 5000
+                       },
+                       "slidesPerView": 1,
+                       "spaceBetween": 30,
+                       "pagination": {
+                         "el": ".swiper-pagination",
+                         "type": "bullets",
+                         "clickable": true
+                       },
+                       "navigation": {
+                         "nextEl": ".swiper-button-next",
+                         "prevEl": ".swiper-button-prev"
+                       }
+                     }
+                  </script>
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="200">
+                           <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-14.jpeg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="300">
+                           <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-3-LargeHighDefinition.jpeg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="400">
+                           <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Loading-Area-4-LargeHighDefinition.jpeg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="400">
+                           <img src="assets/img/IMG_55.jpg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="400">
+                           <img src="assets/img/industrial-space-4.jpg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="400">
+                           <img src="assets/img/IMG_61.jpg" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="400">
+                           <img src="assets/img/IMG_0568.jpg" class="img-fluid">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-navigation-wrapper">
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-pagination"></div>
+                     <div class="swiper-button-next"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Testimonials Section -->
+         <!-- Certifications Section -->
+         <section id="certifications" class="certifications section">
+            <!-- Section Title -->
+            <div class="container section-title">
+               <h2>Transportaion</h2>
+               <p>The building is conveniently located near major transportation services.</p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row align-items-center mb-5 content">
+                  <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                     <h2>Train Stations</h2>
+                     <p>The Space offers convenient rail access through the MTA Metro-North Railroad, serving the New York City metropolitan area.  </p>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                     <div class="badge-highlight">
+                        <div class="badge-content">
+                           <h4> Commuter Rail</h4>
+                           <p>Has scheduled rail lines connecting surrounding suburbs to NYC.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="certification-grid" data-aos="fade-up" data-aos-delay="400">
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="100">
+                     <div class="cert-icon">
+                        <i class="bi bi-train-front" style="font-size: 40px;"></i>
+                     </div>
+                     <div class="cert-details">
+                        <h5>Poughkeepsie Station</h5>
+                        <span class="cert-category">15 min drive </span>
+                        <p>A drive that typically takes around 16 minutes, depending on traffic, as it's across the river in Ulster County.</p>
+                     </div>
+                  </div>
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+                     <div class="cert-icon">
+                        <i class="bi bi-train-front" style="font-size: 40px;"></i>
+                     </div>
+                     <div class="cert-details">
+                        <h5>Beacon Station</h5>
+                        <span class="cert-category">16 min drive  </span>
+                        <p>Driving to Beacon Train Station is about 10-11 miles, taking roughly 15 minutes depending on traffic</p>
+                     </div>
+                  </div>
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="300">
+                     <div class="cert-icon">
+                        <i class="bi bi-train-front" style="font-size: 40px;"></i>
+                     </div>
+                     <div class="cert-details">
+                        <h5>Breakneck Ridge Station</h5>
+                        <span class="cert-category">24 min drive   </span>
+                        <p>Driving to Breakneck Ridge Station is about 15.8 miles, taking roughly 24 minutes depending on traffic</p>
+                     </div>
+                  </div>
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="400">
+                     <div class="cert-icon">
+                        <i class="bi bi-train-front" style="font-size: 40px;"></i>
+                     </div>
+                     <div class="cert-details">
+                        <h5>New Hamburg Station</h5>
+                        <span class="cert-category">27 min drive </span>
+                        <p>Driving to New Hamburg Station is about 16.7 miles, taking roughly 27 minutes depending on traffic</p>
+                     </div>
+                  </div>
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="500">
+                     <div class="cert-icon">
+                        <i class="bi bi-train-front" style="font-size: 40px;"></i>
+                     </div>
+                     <div class="cert-details">
+                        <h5>Cold Spring Station</h5>
+                        <span class="cert-category">30 min drive </span>
+                        <p>Driving to Cold Spring Station is about 19 miles, taking roughly 30 minutes depending on traffic</p>
+                     </div>
+                  </div>
+                  <div class="cert-card" data-aos="flip-left" data-aos-delay="600">
+                     <div class="cert-icon">
+                        <i class="bi bi-airplane" style="font-size: 40px;"></i>    
+                     </div>
+                     <div class="cert-details">
+                        <h5>Stewart Airport</h5>
+                        <span class="cert-category">24 min drive  </span>
+                        <p>Driving to Stewart Airport is about 15.0 miles, taking roughly 24 minutes depending on traffic</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="achievements-banner" data-aos="zoom-in" data-aos-delay="700">
+                  <div class="row text-center">
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="achievement-item">
+                           <i class="bi-minecart-loaded "></i>
+                           <h3>Two</h3>
+                           <p>Loading Docks</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="achievement-item">
+                           <i class="bi-door-closed"></i>
+                           <h3>Two</h3>
+                           <p>Restrooms</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="achievement-item">
+                           <i class="bi-truck-front"></i>
+                           <h3>One</h3>
+                           <p> Drive-in Door</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6">
+                        <div class="achievement-item">
+                           <i class="bi bi-briefcase"></i>
+                           <h3> 2,500 SF</h3>
+                           <p>Office Space</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Certifications Section -->
+         <div class="container mt-5" id="images">
+            <div class="showcase-header text-center mb-4 mt-5">
+               <h2 style="font-size: 55px;">Property Images</h2>
+              
+               <p class="mt-4" style="font-size: 18px ">Below, you will find images of both the outside of the building and the space being offered for lease.</p>
+            </div>
+            <div class="row">
+               <!-- Example Gallery Item -->
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-2-LargeHighDefinition.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-2-LargeHighDefinition.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-12-LargeHighDefinition.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-12-LargeHighDefinition.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-14.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Aerial-14.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-3-LargeHighDefinition.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Building-Photo-3-LargeHighDefinition.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Loading-Area-4-LargeHighDefinition.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Loading-Area-4-LargeHighDefinition.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/22-24-Riverview-Dr-Marlboro-NY-Loading-Area-5-LargeHighDefinition.jpeg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/22-24-Riverview-Dr-Marlboro-NY-Loading-Area-5-LargeHighDefinition.jpeg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/industrial-space-4.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/industrial-space-4.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_61.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_61.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_84.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_84.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0591.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0591.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0590.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0590.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0575.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0575.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0576.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0575.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0574.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0574.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                  <div class="gallery-item-wrapper">
+                     <img src="assets/img/IMG_0573.jpg" alt="Image 1" class="img-fluid">
+                     <div class="overlay">
+                        <a href="assets/img/IMG_0573.jpg" class="view-btn glightbox view-link">
+                        <i class="bi bi-eye" aria-hidden="true"></i> View
+                        </a> 
+                     </div>
+                  </div>
+               </div>
+               <!-- Repeat for more images -->
+            </div>
+         </div>
+         <!-- Call To Action Section -->
+         <section id="contact" class="call-to-action section light-background">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                     <div class="cta-hero-content" data-aos="fade-right" data-aos-delay="200">
+                        <div class="badge-wrapper">
+                           <span class="cta-badge">
+                           <i class="bi bi-shield-check"></i>
+                           Licensed Commercial Borker
+                           </span>
+                        </div>
+                        <h2> Hudson Commercial Real Estate</h2>
+                        <p>Hudson Commercial Real Estate specializes in office and industrial space for sale or lease in the Mid-Hudson Valley, NY. Contact us for more information about 22-24 Riverview Dr.</p>
+                        <div class="feature-highlights">
+                           <div class="highlight-item">
+                              <i class="bi bi-check-circle-fill"></i>
+                              <span>Request a sales flyer</span>
+                           </div>
+                           <div class="highlight-item">
+                              <i class="bi bi-check-circle-fill"></i>
+                              <span>Request a space blueprint</span>
+                           </div>
+                           <div class="highlight-item">
+                              <i class="bi bi-check-circle-fill"></i>
+                              <span>Schedule a showing</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cta-form-section" data-aos="fade-left" data-aos-delay="300">
+                        <div class="form-container">
+                           <div class="form-header">
+                              <h3>Request To Set Showing</h3>
+                              <p>Contact Sam Finnerman to set a showing</p>
+                           </div>
+                           <style>
+                              .contact-info-item {
+                              margin-bottom: 2rem; /* Adds vertical spacing between the rows */
+                              }
+                              .contact-icon-col {
+                              /* Optional: adjust icon column width as needed */
+                              flex: 0 0 50px; 
+                              max-width: 50px;
+                              }
+                              .contact-info-col {
+                              padding-left: 1rem; /* Adds space between icon and text */
+                              }
+                           </style>
+                           <div class="container mt-5">
+                              <!-- Main row to hold potential other content next to this contact block -->
+                              <div class="row justify-content-center">
+                                 <!-- The main col-md-6 div for contact information -->
+                                 <div class="">
+                                    <h1 class="mb-4">Get in Touch</h1>
+                                    <!-- Main section title -->
+                                    <!-- Row 1: Address -->
+                                    <div class="row no-gutters align-items-center contact-info-item">
+                                       <div class="col-auto contact-icon-col text-center">
+                                          <i class="fas fa-map-marker-alt fa-2x color-property"></i>
+                                       </div>
+                                       <div class="col contact-info-col">
+                                          <h2 class="h5 font-weight-bold mb-0">Find us at the office</h2>
+                                          <p class="mb-0">2678 South Rd Ste 103, Poughkeepsie, NY 12601</p>
+                                       </div>
+                                    </div>
+                                    <!-- Row 2: Phone -->
+                                    <div class="row no-gutters align-items-center contact-info-item">
+                                       <div class="col-auto contact-icon-col text-center">
+                                          <i class="fas fa-phone-alt fa-2x color-property"></i>
+                                       </div>
+                                       <div class="col contact-info-col">
+                                          <h2 class="h5 font-weight-bold mb-0">Give us a ring!</h2>
+                                          <p class="mb-0"> <a href="tel:+845-454-1444">(tel) 845-454-1444</a></p>
+                                       </div>
+                                    </div>
+                                    <!-- Row 3: Email -->
+                                    <div class="row no-gutters align-items-center contact-info-item">
+                                       <div class="col-auto contact-icon-col text-center">
+                                          <i class="fas fa-envelope fa-2x color-property"></i>
+                                       </div>
+                                       <div class="col contact-info-col">
+                                          <h2 class="h5 font-weight-bold mb-0">Shoot us an electronic letter!</h2>
+                                          <p class="mb-0"><a href="mailto:sam@hudsoncommercial.com">sam@hudsoncommercial.com</a></p>
+                                       </div>
+                                    </div>
+                                    <!-- Row 4: Website/Message -->
+                                    <div class="row no-gutters align-items-center contact-info-item">
+                                       <div class="col-auto contact-icon-col text-center">
+                                          <i class="fas fa-paper-plane fa-2x color-property"></i>
+                                       </div>
+                                       <div class="col contact-info-col">
+                                          <h2 class="h5 font-weight-bold mb-0">Message us on the website!</h2>
+                                          <p class="mb-0"> <a href="https://hudsoncommercial.com/contact-us/">Visit our contact form </a></p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="trust-indicators" data-aos="fade-up" data-aos-delay="400">
+                           <div class="row g-3">
+                              <div class="col-4">
+                                 <div class="trust-item">
+                                    <div class="trust-icon">
+                                       <i class="bi bi-phone"></i>
+                                    </div>
+                                    <div class="trust-content">
+                                       <span class="trust-number">24h</span>
+                                       <span class="trust-label">Response Time</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4">
+                                 <div class="trust-item">
+                                    <div class="trust-icon">
+                                       <i class="bi bi-clock"></i>
+                                    </div>
+                                    <div class="trust-content">
+                                       <span class="trust-number">8:00 AM - 6:00 PM</span>
+                                       <span class="trust-label">Bussines Hours</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4">
+                                 <div class="trust-item">
+                                    <div class="trust-icon">
+                                       <i class="bi bi-calendar"></i>
+                                    </div>
+                                    <div class="trust-content">
+                                       <span class="trust-number">5 Days a week</span>
+                                       <span class="trust-label">Bussines Days</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Call To Action Section -->
+      </main>
+      <div class="">
+         <div class="d-none" id="data-2">
+            <!-- <h4 class="" style=" margin-top: 0px; text-align: center;  background: rgb(32, 46, 64, 1.0); color: white; padding: 1em;"> 123 Main St</h4>   -->
+            <div class="row ">
+               <!-- Left Column: Property Description -->
+               <div class="card">
+                  <div class="card-body">
+                     <div class="panel panel-default property-card-info">
+                        <div class="panel-body">
+                           <div class="row" style="background: #eee !important; padding: .5em;">
+                              <div class="col-md-2 icon-column text-center">
+                                 <i class="bi bi-building " style="font-size: 65px; color: rgb(227, 38, 14);"></i>
+                              </div>
+                              <div class="col-md-10 details-column ">
+                                 <ul class="list-unstyled property-details card">
+                                    <li><strong>Property Name:</strong> <span class="property-name" id="modalPropertyAddress">22-24 Riverview Dr</span></li>
+                                    <li><strong>Address:</strong> <span class="location" id="modalstreetAddress">22-24 Riverview Dr Marlboro, NY 12542</span></li>
+                                    <li><strong>Property Type:</strong> <span class="property-type" id="modalPropertyType">Warehouse</span></li>
+                                    <li><strong>Year Built:</strong> <span class="year-built " id="modalYearBuilt">1986</span></li>
+                                    <li><strong>Area:</strong> <span class="sq-ft" id="modalMaxContiguous">17,500 SF</span> </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="property-card-info">
+                     <h4 class="property-h4-description color-property color-property" style=" margin-top: -.4em;" id="modalDescription">Description</h4>
+                     <p class="pargh-property" id="modalPropertyDescription">The property is 22-24 Riverview Dr, a Warehouse building located in Newburgh/Kingston Submarket. The buildings location is 22-24 Riverview Dr Marlboro, NY 12542. This is a Warehouse building that sits on a 2.5 AC Lot and was built in 1986. What is available to lease at this location is 17,500 SF. The max amount of space you can lease here would be 17,500 SF. The onwers are asking for rent $29.50 per sq. ft.</p>
+                     <h4 class="property-h4-description color-property " style=" margin-top: .4em;">Property Facts</h4>
+                     <div class="row" style="color: black;">
+                        <div class="col-md-6">
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>For Lease: <span class="for-lase">Yes</span></li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Zoning:  <span class="zoning" id="modalZoning">HD</span></li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Price:  <span class="price" id="modalRent">$29.50</span></li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Year Built: <span class="year-built" id="modalYearBuilt">1986</span></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Smallest Space: <span class="Smallest-Space" id="modalSmallestSpace">17,500 SF</span> </li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Lease Type: <span class="lease-type" id="ModalLeaseType">Single Net</span></li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Drive Ins: <span class="drive-ins" id="modalDriveIns">2 tot.</span> </li>
+                              <li><span class="fa-li"><i class="fa fa-check-square"></i></span>Land Acres <span class="land-acres" id="modalLandAcres">2.70 AC</span> </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <h4 class="property-h4-description  color-property color-property" style="margin-top: .3em;">Location</h4>
+                     <div class="iframe-map-div">
+                        <div class="iframe-wrapper iframe-wrapper-1" id="iframe-wrapper-1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.4296098326245!2d-73.961643!3d41.615390999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3bb53032d04f%3A0x7968810a78b32aae!2s22-24%20Riverview%20Dr%2C%20Marlboro%2C%20NY%2012542!5e1!3m2!1sen!2sus!4v1765923789612!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="footer" class="footer dark-background">
+         <div class="container footer-top">
+            <div class="row gy-4">
+               <div class="col-lg-5 col-md-12 footer-about">
+                  <a href="index.html" class="logo d-flex align-items-center">
+                  <span class="sitename">Hudson Commercial Real Estate</span>
+                  </a>
+                  <p>At Hudson Commercial Real Estate, our goal is to provide you with the leading edge empowering you with more choices, market knowledge, and superb execution in real estate..</p>
+                  <div class="social-links d-flex mt-4">
+                     <a href="https://twitter.com/noah15977842"><i class="bi bi-twitter-x"></i></a>
+                     <a href="https://www.facebook.com/Hudson-Commercial-Real-Estate-Corp-111074927066980/?view_public_for=111074927066980/"><i class="bi bi-facebook"></i></a>
+                     <a href="https://www.instagram.com/hudson.commercial.real.estate/"><i class="bi bi-instagram"></i></a>
+                     <a href="https://www.instagram.com/hudson.commercial.real.estate/"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                     <li><a href="https://hudsoncommercial.com/">Home</a></li>
+                     <li><a href="#">About </a></li>
+                     <li><a href="https://hudsoncommercial.com/frontpage/about/">Management</a></li>
+                     <li><a href="https://hudsoncommercial.com/management/">Properties</a></li>
+                     <li><a href="https://hudsoncommercial.com/">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 col-6 footer-links">
+                  <h4>Our Services</h4>
+                  <ul>
+                     <li><a href="#">Building Management</a></li>
+                     <li><a href="#">Construction Management</a></li>
+                     <li><a href="#">Real Estate Development</a></li>
+                     <li><a href="#">Real Estate Consulting</a></li>
+                     <li><a href="#">Real Estate Sales</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                  <h4>Contact Us</h4>
+                  <p>2678 South Rd Ste 103</p>
+                  <p>Poughkeepsie, NY 12601</p>
+                  <p>United States</p>
+                  <p class="mt-4"><strong>Phone:</strong> <span>+1 (845) 454-1444</span></p>
+                  <p><strong>Email:</strong> <span>sam@hudsoncommercial.com</span></p>
+               </div>
+            </div>
+         </div>
+         <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Hudson Commercial Real Estate Corp.</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+               Developed by Noah Finnerman and
+               <!-- All the links in the footer should remain intact. -->
+               <!-- You can delete the links only if you've purchased the pro version. -->
+               <!-- Licensing information: https://bootstrapmade.com/license/ -->
+               <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+         </div>
+      </footer>
+      <!-- The Modal Structure -->
+      <div class="modal fade modal-lg" id="propertyModal" tabindex="-1" aria-labelledby="propertyModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="propertyModalLabel">Property Facts</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <!-- This is the container for the content -->
+               <div class="modal-body" id="modalContentContainer">
+                  <!-- Content will be injected here -->
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="propertyFactsData" id="data4" style="display: none;">
+         <div class="card " style="height: 650px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.4296098326245!2d-73.961643!3d41.615390999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3bb53032d04f%3A0x7968810a78b32aae!2s22-24%20Riverview%20Dr%2C%20Marlboro%2C%20NY%2012542!5e1!3m2!1sen!2sus!4v1765825005985!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="row mt-4">
+               <!--   <div class="col-md-4 ml-auto mr-auto text-center">
+                  <a class="btn orange-html-color btn-round mt-5 btn-lg" href="https://maps.app.goo.gl/L22HDC7V1mhvM49E7">
+                  View Map
+                  </a>
+                  </div> -->
+            </div>
+         </div>
+      </div>
+      <!-- Scroll Top -->
+      <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <!-- Preloader -->
+      <div id="preloader"></div>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+         // Function to open Modal 2 and close Modal 1
+         function openModal2() {
+          
+           var modal1 = bootstrap.Modal.getInstance(document.getElementById('factsModal'));
+           if (modal1) {
+             modal1.hide(); // Hide the first modal
+           }
+         
+           // Use a slight delay to allow the backdrop to transition out smoothly, then show the second modal
+           setTimeout(function() {
+            
+             var modal2 = new bootstrap.Modal(document.getElementById('factsModal'));
+           
+         
+             modal2.show();
+           }, 300); // Adjust delay as needed
+         }
+         $(document).ready(function() {
+             // Listen for the click event on any element with the class 'propertyFactsLink'
+            
+         
+             $('.propertyFactsLink').on('click', function(event) {
+                 // Prevent the default link behavior (if any)
+                 event.preventDefault();
+         
+                 // Get the ID of the data div specified in the 'data-target-data' attribute of the clicked link
+                 var dataId = $(this).data('target-data');
+         
+                 // Find the corresponding data div by its ID
+                 var factsContent = $('#' + dataId).html();
+         
+                 // Find the modal's content container and empty its current content
+                 
+         
+                 $('#modalContentContainer').empty();
+         
+                 // Put the new content into the modal's content container
+                 $('#modalContentContainer').html(factsContent);
+             });
+         
+            
+         
+         
+         
+             // Optional: Clear the modal content when the modal is closed (hidden.bs.modal event)
+             $('#propertyModal').on('hidden.bs.modal', function () {
+                 $('#modalContentContainer').empty();
+             });
+         
+         });
+         
+         
+         
+      </script>
+   </body>
+</html>
