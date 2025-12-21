@@ -69,14 +69,13 @@
          .map-card-container {
          /* Card Styling */
          width: 90%; /* Adjust width as needed */
-         
          height: 400px; /* Set a fixed height for the map card */
          background-color: #fff; /* White background */
          border-radius: 15px; /* Rounded corners for the card look */
          overflow: hidden; /* Ensures map corners are also rounded */
          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); /* Large, cool box shadow */
          transition: transform 0.3s ease-in-out; /* Optional: subtle hover effect */
-          }
+         }
          .map-card-container:hover {
          transform: translateY(-5px); /* Optional: lifts the card slightly on hover */
          }
@@ -85,6 +84,19 @@
          .map-card-container {  width: 100% !important;  max-width: 100% !important;}
          .left-map-div { padding-right: .4em;  }
          }
+         .icon-text-pair {
+         display: flex; /* Use flexbox for alignment */
+         align-items: center; /* Vertically center icon and text */
+         margin-bottom: 15px; /* Add some spacing between pairs */
+         }
+         .icon-text-pair i {
+         position: relative;    
+         margin-right: 34px; /* Space between icon and text */
+         flex-shrink: 0; /* Prevent icon from shrinking */
+         }
+         .icon-text-pair p {
+         margin-bottom: 0; /* Remove default paragraph margin */
+         } 
       </style>
    </head>
    <body class="index-page">
@@ -1234,20 +1246,20 @@
                <!-- First set of three columns -->
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color"> For Lease: </strong> Yes
                      </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Zoning:  </strong> Office </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4 "></i>
                      <p><strong class="card-words-color">Price:  </strong> $29.50 SF
                      </p>
                   </div>
@@ -1257,20 +1269,20 @@
                <!-- First set of three columns -->
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4 "></i>
                      <p><strong class="card-words-color">Stories: </strong> 2
                      </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Lease Type: </strong> Gross </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Elevators: </strong>   1
                      </p>
                   </div>
@@ -1280,20 +1292,20 @@
                <!-- First set of three columns -->
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Land Acres  </strong> 2.49 AC
                      </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p> <strong class="card-words-color">Parking: </strong>  125  </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p> <strong class="card-words-color">Building: </strong>  25,000 SF </p>
                   </div>
                </div>
@@ -1302,20 +1314,20 @@
                <!-- First set of three columns -->
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Construction: </strong> Steel
                      </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p> <strong class="card-words-color">Year Built: </strong>     1985 </p>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-4">
                   <div class="icon-text-pair">
-                     <i class="fa fa-th  fa-2x"></i>
+                     <i class="bi-box-fill text-primary me-3 fs-4"></i>
                      <p><strong class="card-words-color">Security: </strong>  Space Only</p>
                   </div>
                </div>
@@ -1536,27 +1548,7 @@
          
          
          
-         $('.details-link').on('click', function() {
-         const imgSrc = $(this).data('img-src');
-         const imgTitle = $(this).attr('title');
-         console.log(imgSrc);
-         // Store the image source in localStorage
-         localStorage.setItem('selectedImageTitle', imgTitle);
-         localStorage.setItem('selectedImageImg', imgSrc;
          
-         
-         
-         
-         
-         // Navigate to the details page
-         window.location.href = 'portfolio-details.html';
-         });
       </script>   
-         
-         
-   </body>      
-         
-   </html>      
-         
-      
-   
+   </body>
+</html>
