@@ -15,7 +15,7 @@ The GitHub page is used as a Property Website for marketing the available space.
 
 ## About
 
-This is a website for marketing the space available.
+This website is designed to market the available space.
 
 
 ## Tools
