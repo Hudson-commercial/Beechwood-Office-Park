@@ -3,7 +3,7 @@
 
  For Lease / Office Space At Beechwood-Office-Park
 
-A GitHub page's website is used as a Property Website for marketing the available space.
+The GitHub page is used as a Property Website for marketing the available space.
 #
 
 ## Links
