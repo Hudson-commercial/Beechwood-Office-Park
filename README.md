@@ -15,7 +15,7 @@ The GitHub page is used as a Property Website for marketing the available space.
 
 ## About
 
-This is a professionally designed website for marketing the space available in Highland, NY.
+This is a professionally designed website for marketing the space available in Poughkeepsie, NY.
 .
 
 ## Tools
